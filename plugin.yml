@@ -1,0 +1,44 @@
+name: ServerWebsite
+main: com.steve.serverwebsite.Plugin
+version: 5
+commands:
+   ServerWebsite:
+      description: The Default Command for the Plugin ServerWebsite
+      usage: /<command> <reload/debug>
+      permission: ServerWebsite.admin
+      permission-message: You don't have permission to use this command!
+   web:
+      description: Shows you the Server's Website
+      usage: /<command>
+      permission: ServerWebsite.sites.website
+      permission-message: You don't have permission to use this command!
+   site:
+      description: Shows you the Server's Website
+      usage: /<command>
+      permission: ServerWebsite.sites.website
+      permission-message: You don't have permission to use this command!
+   website:
+      description: Shows you the Server's Website
+      usage: /<command>
+      permission: ServerWebsite.sites.website
+      permission-message: You don't have permission to use this command!
+   vote:
+      description: Shows you the Server's Voting Page
+      usage: /<command>
+      permission: ServerWebsite.sites.vote
+      permission-message: You don't have permission to use this command!
+   shop:
+      description: Shows you the Server's Shop
+      usage: /<command>
+      permission: ServerWebsite.sites.shop
+      permission-message: You don't have permission to use this command!
+   forum:
+      description: Shows you the Server's Forum
+      usage: /<command>
+      permission: ServerWebsite.sites.forum
+      permission-message: You don't have permission to use this command!
+   online-map:
+      description: Shows you the Server's Online Map
+      usage: /<command>
+      permission: ServerWebsite.sites.online-map
+      permission-message: You don't have permission to use this command!

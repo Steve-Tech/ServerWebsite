@@ -1,6 +1,7 @@
 # ServerWebsite
 A spigot plugin to provide links for your website, shop, forum and/or voting site from your Minecraft Server.
-[Download it already compiled here.](https://www.spigotmc.org/resources/serverwebsite.13007/)
+[Download it already compiled here](https://www.spigotmc.org/resources/serverwebsite.13007/).
+An extension for Placeholder API is also [available for download here](https://api.extendedclip.com/expansions/serverwebsite-expansion/).
 ### Commands:
 * /serverwebsite <reload/debug>
 * /web
@@ -34,7 +35,7 @@ enable-vote-command: true
 enable-shop-command: true
 enable-forum-command: true
 enable-online-map-command: true
-# Insert your server's websites here
+# Insert your server's websites here, the extension for Placeholder API will also read this
 website-url: www.example.com
 vote-url: www.example.com/vote
 shop-url: www.example.com/shop

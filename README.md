@@ -41,6 +41,8 @@ vote-url: www.example.com/vote
 shop-url: www.example.com/shop
 forum-url: www.example.com/forum
 online-map-url: map.example.com:8123
+# Underline the URLs (If you're not using custom messages)
+underline-url: true
 # Tell console and operators when someone types a command provided by this plugin
 debug: false
 # Enable or Disable custom messages here
@@ -51,23 +53,23 @@ forum-custom-message: false
 online-map-custom-message: false
 # Edit custom messages here
 web-message:
-- '&6*&1===================================================&6*'
-- '&6  Our Website: www.example.com'
-- '&6*&1===================================================&6*'
+- '&6@&1===================================================&6@'
+- '&6  Our Website: &nwww.example.com'
+- '&6@&1===================================================&6@'
 vote-message:
-- '&6*&1===================================================&6*'
-- '&6  Voting Link: www.example.com/vote'
-- '&6*&1===================================================&6*'
+- '&6@&1===================================================&6@'
+- '&6  Voting Link: &nwww.example.com/vote'
+- '&6@&1===================================================&6@'
 shop-message:
-- '&6*&1===================================================&6*'
-- '&6  Shop URL: www.example.com/shop'
-- '&6*&1===================================================&6*'
+- '&6@&1===================================================&6@'
+- '&6  Shop URL: &nwww.example.com/shop'
+- '&6@&1===================================================&6@'
 forum-message:
-- '&6*&1===================================================&6*'
-- '&6  Forum URL: www.example.com/forum'
-- '&6*&1===================================================&6*'
+- '&6@&1===================================================&6@'
+- '&6  Forum URL: &nwww.example.com/forum'
+- '&6@&1===================================================&6@'
 online-map-message:
-- '&6*&1===================================================&6*'
-- '&6  Online Map URL: map.example.com:8123'
-- '&6*&1===================================================&6*'
+- '&6@&1===================================================&6@'
+- '&6  Online Map URL: &nmap.example.com:8123'
+- '&6@&1===================================================&6@'
 ```

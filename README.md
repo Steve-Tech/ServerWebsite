@@ -1,4 +1,4 @@
-# ServerWebsite
+# ServerWebsite ![Spigot API Version](https://img.shields.io/badge/Spigot%20API%20Version-1.13-brightgreen.svg) ![Spiget tested server versions](https://img.shields.io/spiget/tested-versions/13007.svg?label=Tested%20MC%20Versions) ![Spiget Downloads](https://img.shields.io/spiget/downloads/13007.svg?label=Spigot%20Downloads)
 A spigot plugin to provide links for your website, shop, forum and/or voting site from your Minecraft Server.
 [Download it already compiled here](https://www.spigotmc.org/resources/serverwebsite.13007/).
 An extension for Placeholder API is also [available for download here](https://api.extendedclip.com/expansions/serverwebsite-expansion/).
@@ -73,3 +73,5 @@ online-map-message:
 - '&6  Online Map URL: &nmap.example.com:8123'
 - '&6@&1===================================================&6@'
 ```
+This plugin uses [bStats](https://bstats.org/) so I know how my plugin is being used and how I can improve it. You can always opt-out using the config file in the bStats folder. See all the collected data [here](https://bstats.org/plugin/bukkit/ServerWebsite).\
+![bStats Servers](https://img.shields.io/bstats/servers/2866.svg) ![bStats Players](https://img.shields.io/bstats/players/2866.svg)
